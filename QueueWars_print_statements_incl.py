@@ -25,7 +25,7 @@ def queue_battle(dist,*armies):
         queues[n]={'target':target,'army':{k:v for k,v in enumerate(list(army))}}
         
         
-    #Print Armies for testing
+    #Print Armies for testingg
     print("Starting Armies")
     for army, data in queues.items():        
         print(army,data)
